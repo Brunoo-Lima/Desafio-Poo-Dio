@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f616749b-a6eb-4ff1-8cf5-f11a19f62aec" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/src/desafio/dio/Curso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desafio/dio/Mentoria.java" afterDir="false" />
+    <list default="true" id="f616749b-a6eb-4ff1-8cf5-f11a19f62aec" name="Changes" comment="add classes cursos and mentoria">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desafio/dio/Content.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desafio/dio/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desafio/dio/Mentoring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desafio/dio/Curso.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desafio/dio/Mentoria.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,12 +51,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -69,11 +74,19 @@
       <option name="project" value="LOCAL" />
       <updated>1678282551041</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add classes cursos and mentoria">
+      <created>1678406415555</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678406415555</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="add classes cursos and mentoria" />
+    <option name="LAST_COMMIT_MESSAGE" value="add classes cursos and mentoria" />
   </component>
 </project>

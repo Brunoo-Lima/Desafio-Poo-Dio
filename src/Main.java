@@ -1,23 +1,22 @@
-import desafio.dio.Curso;
-import desafio.dio.Mentoria;
+import desafio.dio.Course;
+import desafio.dio.Mentoring;
 
 import java.time.LocalDate;
 
 public class Main {
     public static void main(String[] args) {
-        Curso course = new Curso();
-        Mentoria mentoria = new Mentoria();
-
+        Course course = new Course();
         course.setTitle("Curso Java");
-        course.setDescrition("Java");
+        course.setDescription("Java");
         course.setCourseLoad(8);
 
         System.out.println(course);
 
-        mentoria.setTitle("Mentoria Java");
-        mentoria.setDescrition("Java");
-        mentoria.setDate(LocalDate.now());
+        Mentoring mentoring = new Mentoring();
+        mentoring.setTitle("Mentoria Java");
+        mentoring.setDescription("Java");
+        mentoring.setDate(LocalDate.now());
 
-        System.out.println(mentoria);
+        System.out.println(mentoring);
     }
 }
