@@ -22,9 +22,9 @@ public class Course extends Content {
 
     @Override
     public String toString() {
-        return "Curso{" +
+        return "Course{" +
                 "title='" + getTitle() + '\'' +
-                ", descrition='" + getDescription() + '\'' +
+                ", description='" + getDescription() + '\'' +
                 ", courseLoad=" + courseLoad +
                 '}';
     }
