@@ -2,6 +2,7 @@ package desafio.dio;
 
 import java.util.LinkedHashSet;
 import java.util.Objects;
+import java.util.Optional;
 import java.util.Set;
 
 public class Dev {
@@ -9,11 +10,27 @@ public class Dev {
     private Set<Content> contentRegistered = new LinkedHashSet<>();
     private Set<Content> contentCompleted = new LinkedHashSet<>();
 
-    public void registerBootCamp(BootCamp bootcamp){}
+    public void registerBootCamp(BootCamp bootcamp){
+         this.contentRegistered.addAll(bootcamp.getContents());
+         bootcamp.getDevsRegisters().add(this);
+    }
 
-    public void progress(){}
+    public void progress(){
+        Optional<Content> content = this.contentRegistered.stream().findFirst();
+        if(content.isPresent()) {
+            this.contentCompleted.add(content.get());
+            this.contentRegistered.remove(content.get());
+        } else {
+            System.err.println("Você não está matriculado em nenhum conteúdo");
+        }
+    }
 
-    public void calculateTotalXp(){}
+    public double calculateTotalXp() {
+        return this.contentCompleted
+                .stream()
+                .mapToDouble(content -> content.calculateXp())
+                .sum();
+    }
 
     public String getName() {
         return name;
